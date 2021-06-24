@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZColorKit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h2>ZColorKit</h2>
+            <div class="nav">
+                <a href="" class="navLink active">Generator</a>
+            </div>
+        </header>
+        <div class="form-container">
+            <h2>Color</h2>
+            <div class="innerForm">
+                <input type="text" placeholder="Color in HEX" class="hex">
+                <div onclick="generateColor()">
+                    <i data-feather="send" class="icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="color-container" id="colorContainer">
+        </div>
+    </div>
+    <div class="upper">
+        <i data-feather="chevron-up" class="icon"></i>
+    </div>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
