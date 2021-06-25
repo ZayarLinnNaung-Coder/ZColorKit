@@ -1,4 +1,5 @@
 let colorContainer = document.getElementById("colorContainer");
+let darkCheckbox = document.getElementById('darkCheckbox');
 let hexInput = document.querySelector('.hex');
 
 const lightenDarkenColor = (color, amount) => {
@@ -32,6 +33,10 @@ function generateColor(){
     colorContainer.innerHTML = '';
     let amount = 0;
     let color = hexInput.value;
+    let counter = 10;
+    if(darkCheckbox.checked){
+        counter = -10;
+    }
     if(color.replace('#','').length != 3 && color.replace('#','').length != 6){
         alert("Hex length should be 3 or 6");
         return;
@@ -48,7 +53,7 @@ function generateColor(){
         colorDiv.style.backgroundColor = colorResult;
         colorContainer.appendChild(colorDiv)
 
-        amount += 10;
+        amount += counter;
     }
 
 
