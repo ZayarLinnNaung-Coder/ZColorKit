@@ -73,6 +73,10 @@ header .nav .navLink.active{
     height: 12px;
     stroke: var(--primary-light-color);
 }
+.form-container .innerForm .checkboxContainer #darkCheckbox{
+    width: 50%;
+    background-color: red                                                         ;
+}
 .color-container{
     padding: 20px 100px;
     width: 100%;
