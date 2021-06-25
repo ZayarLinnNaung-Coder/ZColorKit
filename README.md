@@ -5,4 +5,4 @@ Advantages
   2. Nice User Experience
   3. Easy to use
   
- <img src="https://github.com/ZayarLinnNaung-Coder/ZColorKit/blob/master/ZColorKit.png" height="300px">
+ <img src="https://github.com/ZayarLinnNaung-Coder/ZColorKit/blob/master/image.png" height="300px">
