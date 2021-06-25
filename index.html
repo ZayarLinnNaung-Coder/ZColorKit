@@ -19,6 +19,9 @@
         <div class="form-container">
             <h2>Color</h2>
             <div class="innerForm">
+                <div class="checkboxContainer">
+                    <input type="checkbox" id="darkCheckbox">
+                </div>
                 <input type="text" placeholder="Color in HEX" class="hex">
                 <div onclick="generateColor()">
                     <i data-feather="send" class="icon"></i>
@@ -31,7 +34,7 @@
     <div class="upper">
         <i data-feather="chevron-up" class="icon"></i>
     </div>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/feather.min.js"></script>
     <script src="js/script.js"></script>
     <script>
         feather.replace();
